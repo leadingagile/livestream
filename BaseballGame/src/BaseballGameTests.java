@@ -190,4 +190,5 @@ public class BaseballGameTests {
 		game.atBatOutcome(TRIPPLE);
 		assertEquals("Home: 0 Away: 1", game.toString());
 	}
+
 }

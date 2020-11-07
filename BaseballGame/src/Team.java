@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 class Team {
 	private String name;
 	private int strikes;
@@ -48,4 +46,5 @@ class Team {
 	public int activePlayers() {
 		return this.players.size();
 	}
+
 }
