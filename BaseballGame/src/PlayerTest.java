@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class PlayerTest {
@@ -19,12 +20,4 @@ public class PlayerTest {
 		assertEquals(2, player.base());
 	}
 	
-	@Test
-	public void playerMakesARun() {
-		Team team = new Team("Anaheim Arbitraries", new BaseballGame());
-		Player player = new Player(team);
-		player.advance(4);
-
-		assertEquals("Anaheim Arbitraries: 1",  team.toString());
-	}
 }
