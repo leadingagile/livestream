@@ -11,7 +11,7 @@ public class Player {
 	public void advance(int bases) {
 		baseImStandingOn += bases;
 		
-		if(baseImStandingOn >3) teamImOn.addRun();
+		//if(baseImStandingOn == 4) teamImOn.addRun();
 	}
 	
 	public int base() {

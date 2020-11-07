@@ -188,7 +188,6 @@ public class BaseballGameTests {
 	public void singleThenTripple() {
 		game.atBatOutcome(SINGLE);
 		game.atBatOutcome(TRIPPLE);
-		assertEquals("Home:0 Away: 1", game.toString());
+		assertEquals("Home: 0 Away: 1", game.toString());
 	}
-	
 }
